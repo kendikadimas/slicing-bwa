@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../output.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body class="bg-[#181826]">
+    <div class="bg-[#181826] p-6">
+
+        <header class="flex justify-between items-center px-6 py-4 bg-[#181826]">
+            <div class="flex items-center space-x-2 bg-[#1d1d23] rounded-full">
+                <img src="../../../assets/icons/pp.png" alt="Profile Picture" class="w-10 h-10 rounded-full">
+                <p class="bg-[#1d1d23] py-2 px-4 rounded-full text-sm text-white">Hai, Rafli</p>
+            </div>
+            <button class="bg-[#1d1d23] p-3 rounded-full">
+                <img src="../../../assets/icons/gift.svg" alt="Gift" class="w-6 h-6">
+            </button>
+        </header>
+    </div>
+
+    <div class="flex items-center justify-center px-6 bg-gray-900">
+    <div class="relative w-full max-w-md rounded-lg overflow-hidden shadow-lg">
+        <!-- Gambar -->
+        <img 
+        src="../../../assets/images/banner.png" 
+        alt="Banner" 
+        class="w-full h-48 object-cover"
+        >
+        <!-- Overlay gelap untuk memastikan teks terlihat jelas -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+        
+        <!-- Konten (judul dan tombol) -->
+        <div class="absolute bottom-4 left-4 z-10">
+        <!-- Judul -->
+        <h3 class="text-white font-semibold text-lg">
+            Pernikahan Rahasia Bersamanya?
+        </h3>
+        <!-- Tombol -->
+        <a 
+            href="#" 
+            class="mt-2 inline-flex items-center px-4 py-2 bg-[#E0FE10] text-black font-bold rounded-full hover:bg-opacity-80 transition duration-300">
+            <span class="mr-2">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor" 
+                class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-4.504 2.252a1 1 0 01-1.497-.868V10.449a1 1 0 01.997-1.002l4.504-.001a1 1 0 01.997 1.002v1.719a1 1 0 01-.497.868z" />
+            </svg>
+            </span>
+            Tonton Sekarang
+        </a>
+        </div>
+    </div>
+    </div>
+
+        
+    <div class="p-10">
+    <div class="flex items-center w-full max-w-md bg-[#1E1E2E] rounded-full border border-gray-500 px-4 py-2 shadow-md">
+        <!-- Input -->
+        <input 
+        type="text" 
+        placeholder="Cari Drama..." 
+        class="flex-1 bg-transparent text-white placeholder-gray-400 focus:outline-none"
+        >
+        <!-- Icon -->
+        <button class="flex items-center justify-center w-8 h-8 bg-transparent">
+        <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor" 
+            class="w-5 h-5 text-[#E0FE10]">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+        </svg>
+        </button>
+    </div>
+    </div>
+    
+
+    <div class="py-6 px-10">
+        <h2 class="text-white text-xl font-semibold mb-4">Sedang Trending</h2>
+    
+        <!-- Swiper Container -->
+        <div class="swiper relative">
+        <div class="swiper-wrapper">
+            <!-- Card -->
+            <div class="swiper-slide bg-[#1E1E2E] rounded-lg overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-110">
+            <img
+                src="../../../assets/images/penebusancinta.png"
+                alt="Penebusan Cinta"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-4 relative">
+                <div class="absolute top-2 right-2 bg-yellow-500 text-black text-xs font-bold rounded-full px-2 py-1 flex items-center">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-4 h-4 mr-1"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.086 3.337a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.087 3.337c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.782.57-1.837-.197-1.538-1.118l1.087-3.337a1 1 0 00-.364-1.118L2.62 8.764c-.783-.57-.381-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.086-3.337z" />
+                </svg>
+                8.0
+                </div>
+                <h3 class="text-white text-lg font-semibold">Penebusan Cinta</h3>
+                <p class="text-gray-400 text-sm">Kolosal</p>
+            </div>
+            </div>
+    
+            <!-- Duplicate for other cards -->
+            <div class="swiper-slide bg-[#1E1E2E] rounded-lg overflow-hidden shadow-md">
+            <img
+                src="../../../assets/images/cintadanpenebusan.png"
+                alt="Cinta dan Penebusan"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-4 relative">
+                <div class="absolute top-2 right-2 bg-yellow-500 text-black text-xs font-bold rounded-full px-2 py-1 flex items-center">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-4 h-4 mr-1"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.086 3.337a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.087 3.337c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.782.57-1.837-.197-1.538-1.118l1.087-3.337a1 1 0 00-.364-1.118L2.62 8.764c-.783-.57-.381-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.086-3.337z" />
+                </svg>
+                8.0
+                </div>
+                <h3 class="text-white text-lg font-semibold">Cinta dan Penebusan</h3>
+                <p class="text-gray-400 text-sm">Kolosal</p>
+            </div>
+            </div>
+
+            <div class="swiper-slide bg-[#1E1E2E] rounded-lg overflow-hidden shadow-md">
+            <img
+                src="../../../assets/images/yangmenguasaidunia.png"
+                alt="YANG Menguasai Dunia"
+                class="w-full h-48 object-cover"
+            />
+            <div class="p-4 relative">
+                <div class="absolute top-2 right-2 bg-yellow-500 text-black text-xs font-bold rounded-full px-2 py-1 flex items-center">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-4 h-4 mr-1"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.086 3.337a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.087 3.337c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.782.57-1.837-.197-1.538-1.118l1.087-3.337a1 1 0 00-.364-1.118L2.62 8.764c-.783-.57-.381-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.086-3.337z" />
+                </svg>
+                8.0
+                </div>
+                <h3 class="text-white text-lg font-semibold">Yang Menguasai Dunia</h3>
+                <p class="text-gray-400 text-sm">Kolosal</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        spaceBetween: 16,
+        centeredSlides: true, // Fokuskan slide tengah
+        loop: true,           // Ulangi slide saat di-swipe
+        breakpoints: {
+            640: { slidesPerView: 3 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 3 },
+        },
+        });
+    </script>
+    
+
+    <div class="py-6 px-6">
+        <h2 class="text-white text-xl font-semibold mb-4">Pilihan Teratas</h2>
+    
+        <!-- Swiper Container -->
+        <div class="swiperCard">
+        <div class="swiper-wrapper">
+            <!-- Card 1 -->
+            <div class="swiper-slide text-center">
+            <div class="bg-[#1E1E2E] rounded-xl overflow-hidden shadow-md">
+                <img
+                src="https://via.placeholder.com/300x400"
+                alt="Menjadi Milikmu Selamanya"
+                class="w-full h-64 object-cover"
+                />
+                <div class="p-4">
+                <h3 class="text-white font-semibold text-sm">Menjadi Milikmu Selamanya</h3>
+                </div>
+            </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="swiper-slide text-center">
+            <div class="bg-[#1E1E2E] rounded-xl overflow-hidden shadow-md">
+                <img
+                src="https://via.placeholder.com/300x400"
+                alt="Kembalinya Sang Raja"
+                class="w-full h-64 object-cover"
+                />
+                <div class="p-4">
+                <h3 class="text-white font-semibold text-sm">Kembalinya Sang Raja</h3>
+                </div>
+            </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="swiper-slide text-center">
+            <div class="bg-[#1E1E2E] rounded-xl overflow-hidden shadow-md">
+                <img
+                src="https://via.placeholder.com/300x400"
+                alt="Gadis Lugu Penakluk Hati"
+                class="w-full h-64 object-cover"
+                />
+                <div class="p-4">
+                <h3 class="text-white font-semibold text-sm">Gadis Lugu Penakluk Hati</h3>
+                </div>
+            </div>
+            </div>
+    
+            <!-- Tambahkan Card Lainnya Jika Diperlukan -->
+        </div>
+        </div>
+    </div>
+    
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiperCorousel = new Swiper('.swiperCard', {
+        slidesPerView: 3, // Tampilkan 3 card sekaligus
+        spaceBetween: 16, // Jarak antar card
+        breakpoints: {
+            640: { slidesPerView: 1 }, // 1 card pada layar kecil
+            768: { slidesPerView: 2 }, // 2 card pada layar medium
+            1024: { slidesPerView: 3 }, // 3 card pada layar besar
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+
+    <div class="bg-[#1E1E2E] p-6 min-h-screen">
+        <h2 class="text-white text-xl font-semibold mb-4">Romance</h2>
+        
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        <!-- Card 1 -->
+        <div class="bg-[#27293D] rounded-lg overflow-hidden shadow-lg">
+            <img 
+            src="https://via.placeholder.com/200x300" 
+            alt="Nikah Kontrak Jadi Miliarder" 
+            class="w-full h-48 object-cover"
+            />
+            <div class="p-3">
+            <h3 class="text-white text-sm font-semibold">Nikah Kontrak Jadi Miliarder</h3>
+            </div>
+            <div class="absolute top-2 right-2">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="orange" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor" 
+                class="w-6 h-6">
+                <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                d="M5 15l7-7 7 7"
+                />
+            </svg>
+            </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="bg-[#27293D] rounded-lg overflow-hidden shadow-lg">
+            <img 
+            src="https://via.placeholder.com/200x300" 
+            alt="Cinta di Luar Kesepakatan" 
+            class="w-full h-48 object-cover"
+            />
+            <div class="p-3">
+            <h3 class="text-white text-sm font-semibold">Cinta di Luar Kesepakatan</h3>
+            </div>
+            <div class="absolute top-2 right-2">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="orange" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor" 
+                class="w-6 h-6">
+                <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                d="M5 15l7-7 7 7"
+                />
+            </svg>
+            </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="bg-[#27293D] rounded-lg overflow-hidden shadow-lg">
+            <img 
+            src="https://via.placeholder.com/200x300" 
+            alt="Aku Melintasi Duniamu" 
+            class="w-full h-48 object-cover"
+            />
+            <div class="p-3">
+            <h3 class="text-white text-sm font-semibold">Aku Melintasi Duniamu</h3>
+            </div>
+            <div class="absolute top-2 right-2">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="orange" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor" 
+                class="w-6 h-6">
+                <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                d="M5 15l7-7 7 7"
+                />
+            </svg>
+            </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="bg-[#27293D] rounded-lg overflow-hidden shadow-lg">
+            <img 
+            src="https://via.placeholder.com/200x300" 
+            alt="Pernikahan Semu" 
+            class="w-full h-48 object-cover"
+            />
+            <div class="p-3">
+            <h3 class="text-white text-sm font-semibold">Pernikahan Semu</h3>
+            </div>
+            <div class="absolute top-2 right-2">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="orange" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor" 
+                class="w-6 h-6">
+                <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                d="M5 15l7-7 7 7"
+                />
+            </svg>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <div class="bg-[#1E1E2E] p-4 flex justify-center">
+        <!-- Navigation Container -->
+        <div class="flex items-center bg-[#27293D] px-6 py-2 rounded-full space-x-6 shadow-lg">
+        <!-- Home Button (Active State) -->
+        <a
+            href="#"
+            class="flex items-center px-4 py-2 bg-[#38394D] rounded-full text-white text-sm font-medium border border-[#E0FE10] hover:bg-[#45475F] transition duration-300"
+        >
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            class="w-5 h-5 mr-2"
+            >
+            <path d="M3 12l9-9 9 9H16v9H8v-9H3z" />
+            </svg>
+            Home
+        </a>
+    
+        <!-- Notification Icon -->
+        <a
+            href="#"
+            class="flex items-center text-gray-400 hover:text-white transition duration-300"
+        >
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 h-6"
+            >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14V11a6 6 0 10-12 0v3c0 .417-.162.832-.45 1.134L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+            />
+            </svg>
+        </a>
+    
+        <!-- Bookmark Icon -->
+        <a
+            href="#"
+            class="flex items-center text-gray-400 hover:text-white transition duration-300"
+        >
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 h-6"
+            >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 3v18l7-5 7 5V3H5z"
+            />
+            </svg>
+        </a>
+    
+        <!-- User Icon -->
+        <a
+            href="#"
+            class="flex items-center text-gray-400 hover:text-white transition duration-300"
+        >
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 h-6"
+            >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5.121 18.364A9 9 0 0112 15c1.656 0 3.156.564 4.364 1.5M12 3a5 5 0 100 10 5 5 0 000-10z"
+            />
+            </svg>
+        </a>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -5,80 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link href="../../../output.css" rel="stylesheet">
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #181828 100%), url('/assets/images/signin_bg.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 24px;
-      
-    }
-    
-   
-
-    input {
-      width: 100%;
-      padding: 12px;
-      margin-top: 8px;
-      border-radius: 50px;
-      background: #2D2D2D;
-      border: 1px solid white;
-      color: white;
-    }
-    input:focus {
-      border-color: #E0FE10;
-      outline: none;
-    }
-    .btn {
-      margin-top: 20px;
-      width: 100%;
-      background: #E0FE10;
-      padding: 12px;
-      border-radius: 50px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .btn:hover {
-      background: #D1E600;
-    }
-    .social-icons img {
-      width: 40px;
-      height: 40px;
-      cursor: pointer;
-      transition: opacity 0.3s;
-    }
-    .social-icons img:hover {
-      opacity: 0.8;
-    }
-  </style>
 </head>
-<body>
-  <div class="container">
-    <h1 class="text-white text-xl font-bold mb-2">Login</h1>
+<body class="flex justify-center items-center min-h-screen bg-gradient-to-b from-transparent via-transparent to-[#181828] bg-cover bg-center bg-no-repeat p-6" >
+  <div class="background-image absolute top-0 left-0 w-full h-full bg-cover bg-center z-0 opacity-[0.6]" style="background-image: url('/assets/images/signin_bg.png');"></div>
+  <div class="overlay absolute top-0 left-0 w-full h-full z-1" style="background: linear-gradient(to bottom, rgba(24, 24, 40, 0.5) 50%, rgba(24, 24, 40, 1) 100%);"></div>
+  <div class="container relative z-10">
+    <h1 class="text-white text-3xl font-bold mb-2">Login</h1>
     <p class="text-white text-sm mb-[32px]">Siap Lanjut Maraton Series? Masuk Dulu Yuk!</p>
     
     <form>
-      
       <label class="text-white text-sm mt-[20px]">Email</label>
-      <input type="email" placeholder="Masukkan Email">
+      <input class="w-full p-3 mt-2 rounded-full bg-[#2D2D2D] border border-white text-white focus:border-[#E0FE10] focus:outline-none" type="email" placeholder="Masukkan Email">
       
       <label class="text-white text-sm mt-[20px]">Password</label>
-      <input type="password" placeholder="Masukkan Kata Sandi">
+      <input class="w-full p-3 mt-2 rounded-full bg-[#2D2D2D] border border-white text-white focus:border-[#E0FE10] focus:outline-none" type="password" placeholder="Masukkan Kata Sandi">
       
-      <button type="submit" class="btn">Masuk</button>
+      <button  type="submit" class="btn mt-5 w-full bg-[#E0FE10] p-3 rounded-full font-bold cursor-pointer transition-colors duration-300 hover:bg-opacity-80 hover:bg-[#D1E600]">Masuk</button>
     </form>
     
     <p class="text-white text-center mt-[24px]">Atau masuk dengan</p>
     <div class="flex justify-center gap-4 mt-2 social-icons">
-      <img src="/assets/icons/google.svg" alt="Google">
-      <img src="/assets/icons/apple.svg" alt="Apple">
-      <img src="/assets/icons/facebook.svg" alt="Facebook">
+      <img class="w-10 h-10 cursor-pointer transition-opacity duration-300 hover:opacity-[0.8]" src="/assets/icons/google.svg" alt="Google">
+      <img class="w-10 h-10 cursor-pointer transition-opacity duration-300 hover:opacity-[0.8]" src="/assets/icons/apple.svg" alt="Apple">
+      <img class="w-10 h-10 cursor-pointer transition-opacity duration-300 hover:opacity-[0.8]" src="/assets/icons/facebook.svg" alt="Facebook">
     </div>
     
     <p class="text-center text-white mt-6">
