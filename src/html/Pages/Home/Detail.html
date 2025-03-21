@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Drama</title>
+    <link rel="stylesheet" href="../../../output.css">
+</head>
+<body class="h-screen flex flex-col bg-[#181826] text-white">
+    <!-- Background Image dengan Gradient -->
+    <div class="relative h-2/3 w-full bg-[url('/assets/images/bg-detail.png')] bg-cover bg-no-repeat">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#181826]"></div>
+        
+        <!-- Header -->
+        <header class="absolute top-4 left-4 right-4 flex items-center justify-between mt-2">
+            <a href="../home.html" class="p-3 bg-[#C29793] rounded-full">
+                <img src="/assets/icons/back.svg" alt="Back" class="w-6 h-6">
+            </a>
+            <div class="p-3 bg-[#C29793] rounded-full">
+                <img src="/assets/icons/bookmark.svg" alt="Bookmark" class="w-6 h-6">
+            </div>
+        </header>
+        <!-- Detail Drama -->
+        <div class="absolute bottom-12 left-6">
+            <div class="items-center">
+                <img src="/assets/icons/play.svg" alt="Play" class="w-12 h-12 mx-auto">
+            </div
+            <h1 class="font-bold text-xl">Malaikat Pemikat Hati</h1>
+            <div class="flex items-center flex-wrap gap-2 mt-3">
+                <div class="flex items-center bg-[#2c2c35] px-2 py-1 rounded-full gap-2">
+                    <img src="/assets/icons/age.svg" alt="17+" class="w-4 h-4">
+                    <p class="text-white text-sm">17+</p>
+                </div>
+                <div class="flex items-center bg-[#2c2c35] px-2 py-1 rounded-full gap-2">
+                    <img src="/assets/icons/genre.svg" alt="Romance" class="w-4 h-4">
+                    <p class="text-white text-sm">Romance</p>
+                </div>
+                <div class="flex items-center bg-[#2c2c35] px-2 py-1 rounded-full gap-2">
+                    <img src="/assets/icons/year.svg" alt="2025" class="w-4 h-4">
+                    <p class="text-white text-sm">2025</p>
+                </div>
+                <div class="flex items-center bg-[#2c2c35] px-2 py-1 rounded-full gap-2">
+                    <img src="/assets/icons/episode.svg" alt="120 Episode" class="w-4 h-4">
+                    <p class="text-white text-sm">120 Episode</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Deskripsi -->
+    <div class="px-6 py-4">
+        <p class="text-[12px] text-[#DADADA] leading-normal">
+            Serial drama romantis fantasi yang mengisahkan Malak, seorang malaikat penjaga tampan yang dikirim ke bumi untuk membantu manusia menemukan cinta sejati.
+        </p>
+    </div>
+
+    <!-- Rekomendasi Serupa -->
+    <div class="px-6 py-4">
+        <h2 class="text-[16px] font-medium mb-4">Rekomendasi Serupa</h2>
+        <div class="grid grid-cols-1 gap-4">
+            <!-- Item 1 -->
+            <div class="flex gap-4">
+                <img src="/assets/images/populer1.png" alt="populer 1" class="rounded-[8px] w-[90px] h-[90px]">
+                <div>
+                    <h3 class="text-[16px] font-medium">Nikah Kontrak Jadi Miliarder</h3>
+                    <p class="text-gray-400 text-[12px] line-clamp-2">Mengisahkan pemuda yang pergi dari rumahnya dan mencari jati diri...</p>
+                    <span class="text-[12px] font-semibold">100 Episode</span>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="flex gap-4">
+                <img src="/assets/images/populer2.png" alt="populer 2" class="rounded-[8px] w-[90px] h-[90px]">
+                <div>
+                    <h3 class="text-[16px] font-medium">Kembalinya Sang Raja</h3>
+                    <p class="text-gray-400 text-[12px] line-clamp-2">Mengisahkan pemuda yang pergi dari rumahnya dan mencari jati diri...</p>
+                    <span class="text-[12px] font-semibold">96 Episode</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
